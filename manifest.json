@@ -1,7 +1,6 @@
 {
   "name": "6502js",
   "version": "0.1",
-  "default_locale": "en",
   "description": "6502js emulator turned into a chrome extension",
   "permissions": [],
   "browser_action": {
