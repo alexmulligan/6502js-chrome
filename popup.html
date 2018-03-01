@@ -43,7 +43,31 @@
       <div class="messages"><pre><code></code></pre></div>
 
       <div class="notes" style="display: none">Notes:
-
+        Notes:<br>
+<br>
+Memory location $fe contains a new random byte on every instruction.<br>
+Memory location $ff contains the ascii code of the last key pressed.<br>
+<br>
+Memory locations $200 to $5ff map to the screen pixels. Different values will
+draw different colour pixels. The colours are:<br>
+<br>
+$0: Black<br>
+$1: White<br>
+$2: Red<br>
+$3: Cyan<br>
+$4: Purple<br>
+$5: Green<br>
+$6: Blue<br>
+$7: Yellow<br>
+$8: Orange<br>
+$9: Brown<br>
+$a: Light red<br>
+$b: Dark grey<br>
+$c: Grey<br>
+$d: Light green<br>
+$e: Light blue<br>
+$f: Light grey
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="popup.js"></script>
   </body>
